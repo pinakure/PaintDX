@@ -1,0 +1,13 @@
+build/PaintDX.pdb
+/build
+*.obj
+*.recipe
+*.ilk
+*.log
+*.pch
+*.res
+*.tlog
+/source/.vs
+*.pdb
+*.idb
+/source/PaintDX/x64

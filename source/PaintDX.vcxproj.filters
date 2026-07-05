@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\include\dialogs">
+      <UniqueIdentifier>{0c023adf-6b75-42d8-a591-42626add96ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\include\zlib">
+      <UniqueIdentifier>{c33acd38-4611-45e6-854e-b78c55bb481a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enum.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menu.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\backend.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\paintdx.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\stdafx.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_gradient.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_bezier.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_fill.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_fonts.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_grid.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_palette.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_patterns.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_perspective.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dialog_symmetry.cpp">
+      <Filter>Archivos de origen\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="include\zlib\zlib.cpp">
+      <Filter>Archivos de origen\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="include\gradient.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\menu.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\tools.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\brush.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="include\aviUtil.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="include\PaintDX.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="../../data/gfx/icons/small.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="../../data/gfx/icons/PaintDX.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="../../data/gfx/buttons.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="../../data/gfx/brushes.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="../../data/gfx/dashmodes.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="../../data/gfx/patterns.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
